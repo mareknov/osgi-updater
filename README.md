@@ -20,7 +20,8 @@ How to create a new project:
 -----------------------------
 All our projects are located in **my-projects** folder. When a project requires a 3rd party library, which is an OSGi
 bundle, put this bundle inside **bundle** folder and reference it from there. Only libraries that are specific
-for one particular project and will not be used anywhere else, put in **lib** folder. 
+for one particular project and will not be used anywhere else, put in **lib** folder under that specific project
+(there is no **lib** folder under root) .
 
 How to run a new project:
 -----------------------------
