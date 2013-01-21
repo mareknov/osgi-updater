@@ -5,12 +5,12 @@ Simple configurable bundle, that updates other bundles from different sources, a
 
 Folders structure:
 -----------------------------
-* **bin** - Contains Apache Felix jar executable (felix.jar).
-* **bundle** - Contains all 3rd party bundles (Apache Felix bundles, Apache Commons bundles, Log4j, etc.) that are loaded automatically when Felix is starting.
-* **conf** - Felix configuration file
-* **licence** - Apache Felix license files
-* **my-bundle** - Deployment folder for our bundles. 
-* **my-projects** - Our Netbeans projects.
+* **bin** - contains apache felix jar executable (felix.jar)
+* **bundle** - contains all 3rd party bundles (apache felix commnad line, apache commons, Log4j, etc.); they are loaded automatically when felix starts
+* **conf** - felix configuration file
+* **licence** - apache felix license files
+* **my-bundle** - deployment folder for our bundles
+* **my-projects** - our Netbeans projects
 
 How to run:
 -----------------------------
@@ -24,8 +24,8 @@ only for one project pu in **<project-name>/lib** folder.
 
 How to run a new project:
 -----------------------------
-All what is needed is to run **Clean and Build** in Netbeans IDE. This will automatically create new bundle,
-deploy this bundle inside **my-bundle** folder and start this bundle in felix, IF Felix IS RUNNING. This automatic
-start is thanks to Apache Felix File Installer bundle.
+All what is needed is to run **Clean and Build** in Netbeans IDE. This will automatically create a new bundle,
+deploy this bundle inside **my-bundle** folder and start this bundle in felix (ONLY IF Felix IS RUNNING).
+Automatic restart of newly deployed bundles is thanks to Apache Felix File Installer bundle.
 
 In a new project, you MUST change **build.xml** file - look at already existing projects.
