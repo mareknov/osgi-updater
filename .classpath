@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="HelloBundle/src"/>
+	<classpathentry excluding="sk/tuke/updateManagementAgent/scheduler/" kind="src" path="UpdateMnagementAgent/src"/>
+	<classpathentry kind="src" path="UpdateMnagementAgent/src/sk/tuke/updateManagementAgent/scheduler"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bin/felix.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bundle/commons-configuration-1.9.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bundle/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bundle/HelloBundle.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bundle/org.apache.felix.bundlerepository-1.6.6.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bundle/org.apache.felix.gogo.command-0.12.0.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bundle/org.apache.felix.gogo.runtime-0.10.0.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bundle/org.apache.felix.gogo.shell-0.10.0.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/bundle/UpdateMnagementAgent.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/felix-cache/bundle1/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/felix-cache/bundle2/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/felix-cache/bundle3/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/felix-cache/bundle4/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/felix-cache/bundle5/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/felix-cache/bundle6/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/felix-cache/bundle7/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="felix-framework-4.0.3/felix-cache/bundle8/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="HelloBundle/dist/HelloBundle.jar"/>
+	<classpathentry kind="lib" path="HelloBundle/dist/lib/felix.jar"/>
+	<classpathentry kind="lib" path="HelloBundle/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="lib" path="HelloBundle/lib/felix.jar"/>
+	<classpathentry kind="lib" path="test/target/felix-cache/bundle1/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="test/target/felix-cache/bundle2/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="test/target/felix-cache/bundle3/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="test/target/felix-cache/bundle4/version0.0/bundle.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/3rd party library/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/3rd party library/commons-configuration-1.7.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/3rd party library/commons-configuration-1.9.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/3rd party library/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/3rd party library/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/3rd party library/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/3rd party library/cron4j-2.2.4.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/3rd party library/guava-14.0-rc1.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="lib" path="UpdateMnagementAgent/lib/felix.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="HelloBundle/build/classes"/>
+</classpath>

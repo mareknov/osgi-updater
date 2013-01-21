@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-Activator: sk.tuke.updateManagementAgent.core.UpdateActivator
+Bundle-SymbolicName: Update Management Agent
+Export-Package: sk.tuke.updateManagementAgent.core
+Import-Package: org.osgi.framework,
+ org.apache.commons.configuration
+ 
+

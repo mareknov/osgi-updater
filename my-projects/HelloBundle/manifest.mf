@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0
+Bundle-UpdateLocation: http://kiss.diffusion.sk/HelloBundle.jar
+Bundle-Activator: sk.tuke.hello.Activator
+Bundle-SymbolicName: HelloBundle
+Export-Package: sk.tuke.hello
+Import-Package: org.osgi.framework
+
